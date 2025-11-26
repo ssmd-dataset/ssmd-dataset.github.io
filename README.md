@@ -5,7 +5,7 @@ SSMD (SMS Stealing Malware Dataset) is a curated academic dataset of Android mal
 The dataset is provided strictly for **academic and research purposes only**.
 
 🔗 **Official project page & access request:**  
-https://ssmd-dataset.github.io/ssmd-dataset
+https://ssmd-dataset.github.io
 
 ---
 
@@ -26,10 +26,13 @@ Access to the SSMD dataset is granted upon request and manual verification.
 
 ## ⚠️ Usage Conditions
 
-The SSMD dataset is intended **exclusively for non-commercial academic and research use**.  
-Any redistribution of the dataset or its derivative forms is strictly prohibited without prior written consent of the authors.
+The SSMD dataset is intended **exclusively for non-commercial academic and research use**.
 
-By requesting access, users agree to comply with these terms.
+**Redistribution, further sharing, sublicensing, public mirroring, or making the dataset (or any of its parts) available to third parties is strictly prohibited** without prior written consent of the authors.
+
+The dataset may be used only by the individual or institution to which access has been granted.
+
+By requesting access, users explicitly agree to comply with these terms.
 
 ---
 
