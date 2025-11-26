@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SSMD – SMS Stealing Malware Dataset</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        :root {
+            --primary: #1f3c88;
+            --secondary: #f1f5f9;
+            --accent: #2563eb;
+            --text: #0f172a;
+            --muted: #64748b;
+        }
+
+        body {
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+            margin: 0;
+            background: linear-gradient(180deg, #f8fafc, #e5e7eb);
+            color: var(--text);
+        }
+
+        header {
+            background: linear-gradient(135deg, #1f3c88, #2563eb);
+            color: white;
+            padding: 50px 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.6rem;
+        }
+
+        header p {
+            margin-top: 10px;
+            font-size: 1.1rem;
+            opacity: 0.9;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: -40px auto 60px;
+            background: white;
+            padding: 40px;
+            border-radius: 16px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.08);
+        }
+
+        h2 {
+            color: var(--primary);
+            margin-top: 40px;
+            border-bottom: 2px solid var(--secondary);
+            padding-bottom: 8px;
+        }
+
+        p, li {
+            line-height: 1.7;
+            color: var(--text);
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        .steps {
+            background: var(--secondary);
+            padding: 20px 25px;
+            border-radius: 12px;
+            margin-top: 20px;
+        }
+
+        .steps li {
+            margin-bottom: 8px;
+        }
+
+        .highlight {
+            background: #eff6ff;
+            border-left: 4px solid var(--accent);
+            padding: 16px 18px;
+            border-radius: 8px;
+            margin: 20px 0;
+            color: var(--text);
+        }
+
+        .citation {
+            background: #0f172a;
+            color: #f8fafc;
+            padding: 20px;
+            border-radius: 12px;
+            font-size: 0.95rem;
+            margin-top: 20px;
+            overflow-x: auto;
+        }
+
+        iframe {
+            width: 100%;
+            height: 1200px;
+            border: none;
+            border-radius: 12px;
+            margin-top: 20px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 30px 10px;
+            color: var(--muted);
+            font-size: 0.9rem;
+        }
+
+        footer span {
+            color: var(--primary);
+            font-weight: 600;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>SSMD – SMS Stealing Malware Dataset</h1>
+    <p>Academic dataset for research on Android SMS interception & OTP-stealing malware</p>
+</header>
+
+<div class="container">
+
+    <p>
+        The <b>SSMD (SMS Stealing Malware Dataset)</b> is a curated collection of Android malware samples
+        designed to support scientific research on SMS interception, OTP theft, and related
+        two-factor authentication (2FA) bypass techniques.
+    </p>
+
+    <div class="highlight">
+        The dataset is provided strictly for <b>academic and research purposes only</b>.
+    </div>
+
+    <h2>How to Obtain Access</h2>
+
+    <p>
+        To request access to the SSMD dataset, please complete the request form below.
+        Each request is manually reviewed by the dataset maintainers.
+    </p>
+
+    <ul class="steps">
+        <li><b>1.</b> Complete and submit the access request form.</li>
+        <li><b>2.</b> We carefully review each submission.</li>
+        <li><b>3.</b> If your request is approved, you will receive an e-mail confirmation.</li>
+        <li><b>4.</b> The dataset will be sent to you as a <b>CSV file</b> containing:
+            <ul>
+                <li>malware sample identifiers,</li>
+                <li>SHA-256 hashes,</li>
+                <li>package name abbreviations.</li>
+            </ul>
+        </li>
+    </ul>
+
+    <h2>Dataset Access Request Form</h2>
+
+    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdMj8wlH6kHdgfPFkvitiHMM0qTDPtLiURjY4q7ZK8auOVw0w/viewform?embedded=true">
+        Loading…
+    </iframe>
+
+    <h2>Usage Conditions & Citation</h2>
+
+    <p>
+        The SSMD dataset is made available strictly for non-commercial academic research.
+        If you use the SSMD dataset in any scientific publication, thesis, technical report,
+        or other research output, you are kindly requested to cite the following paper:
+    </p>
+
+    <div class="citation">
+        M. Bartłomiejczyk, I. El Fray, and F. Kamoun, <br>
+        “Enhancing Two-Factor Authentication Security by Analyzing and Detecting SMS OTP-Interception Techniques in Android Malware,” <br>
+        IEEE Access, vol. 13, pp. 185926–185940, 2025, <br>
+        doi: 10.1109/ACCESS.2025.3626270
+    </div>
+
+    <p class="highlight">
+        By requesting access to the dataset, you agree to comply with the above usage conditions
+        and citation requirements.
+    </p>
+
+</div>
+
+<footer>
+    © 2025 <span>SSMD Research Team</span> — Dataset for academic use only
+</footer>
+
+</body>
+</html>
