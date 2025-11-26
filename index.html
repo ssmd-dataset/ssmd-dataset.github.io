@@ -112,6 +112,32 @@
             color: var(--primary);
             font-weight: 600;
         }
+        .form-box {
+            margin-top: 25px;
+            text-align: center;
+            background: #f8fafc;
+            border: 1px solid #e5e7eb;
+            padding: 30px;
+            border-radius: 14px;
+        }
+        
+        .form-button {
+            display: inline-block;
+            padding: 16px 28px;
+            background: linear-gradient(135deg, #2563eb, #1f3c88);
+            color: white;
+            border-radius: 12px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 1rem;
+            transition: transform 0.15s ease, box-shadow 0.15s ease;
+            box-shadow: 0 8px 20px rgba(37, 99, 235, 0.25);
+        }
+        
+        .form-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 12px 26px rgba(37, 99, 235, 0.35);
+        }
     </style>
 </head>
 <body>
@@ -154,16 +180,23 @@
     </ul>
 
     <h2>Dataset Access Request Form</h2>
-    <a href="https://docs.google.com/forms/d/e/1FAIpQLSdMj8wlH6kHdgfPFkvitiHMM0qTDPtLiURjY4q7ZK8auOVw0w/viewform"
-       target="_blank"
-       style="display:inline-block;padding:14px 22px;background:#2563eb;color:white;
-              border-radius:10px;text-decoration:none;font-weight:600;">
-       Open Access Request Form
-    </a>
+    
+    <div class="form-box">
+        <p style="margin-bottom:18px;color:#334155;">
+            Please use the official form below to request access to the SSMD dataset.
+            The form will open in a new browser tab.
+        </p>
+    
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSdMj8wlH6kHdgfPFkvitiHMM0qTDPtLiURjY4q7ZK8auOVw0w/viewform"
+           target="_blank"
+           class="form-button">
+            Open Access Request Form →
+        </a>
+    </div>
 
-    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdMj8wlH6kHdgfPFkvitiHMM0qTDPtLiURjY4q7ZK8auOVw0w/viewform?embedded=true">
+    <!-- <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdMj8wlH6kHdgfPFkvitiHMM0qTDPtLiURjY4q7ZK8auOVw0w/viewform?embedded=true">
         Loading…
-    </iframe>
+    </iframe> -->
 
     <h2>Usage Conditions & Citation</h2>
 
